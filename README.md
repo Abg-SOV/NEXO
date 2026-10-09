@@ -5,7 +5,7 @@ Sitio web front-end moderno, mobile-first y 100 % estático (HTML5 semántico, C
 
 ---
 
-## 🚀 Inicio Rápido
+##  Inicio Rápido
 
 1. Puedes abrir `index.html` directamente en cualquier navegador moderno (Edge, Chrome, Safari, Firefox), o servirlo con cualquier servidor estático:
    ```bash
@@ -21,7 +21,7 @@ Sitio web front-end moderno, mobile-first y 100 % estático (HTML5 semántico, C
 
 ---
 
-## ⚙️ El Archivo Central de Configuración: `js/config.js`
+## El Archivo Central de Configuración: `js/config.js`
 
 **Todos los datos editables del sitio están centralizados en un único archivo:**  
 [`js/config.js`](file:///C:/Users/pablo/Desktop/nexo/js/config.js)
@@ -45,7 +45,7 @@ No necesitas tocar el código HTML de cada página para cambiar enlaces, número
 
 ---
 
-## 🔍 Placeholders que debes completar antes de lanzar
+## Placeholders que debes completar antes de lanzar
 
 En el proyecto se marcaron claramente todos los datos ficticios o pendientes con la etiqueta `[PLACEHOLDER]`. Busca en tu editor la palabra `PLACEHOLDER` para reemplazarlos con tus datos reales:
 
@@ -66,7 +66,7 @@ En el proyecto se marcaron claramente todos los datos ficticios o pendientes con
 
 ---
 
-## 🎨 Identidad Visual y Sistema de Diseño
+## Identidad Visual y Sistema de Diseño
 
 El diseño fue reconstruido desde cero tomando como referencia directa el logo `assets/logonexo.png`:
 - **Paleta de color:** Negro profundo (`#03040A`), azul marino (`#08113A`), azul eléctrico (`#1F4BFF`, `#0A2BD6`), cian suave para brillos especulares (`#7FD4FF`) y blanco para destellos.
@@ -77,7 +77,7 @@ El diseño fue reconstruido desde cero tomando como referencia directa el logo `
 
 ---
 
-## 💬 Mensajes Automáticos en WhatsApp y Telegram
+## Mensajes Automáticos en WhatsApp y Telegram
 
 Cumpliendo con el requerimiento principal, **cada botón de contacto escribe de forma automática el mensaje apropiado** según la acción que realiza el cliente:
 - Al hacer clic en un paquete (ej. "800 Robux"):
@@ -90,7 +90,7 @@ Cumpliendo con el requerimiento principal, **cada botón de contacto escribe de 
 
 ---
 
-## 📂 Estructura de Páginas
+## Estructura de Páginas
 
 - [`index.html`](file:///C:/Users/pablo/Desktop/nexo/index.html): Portada principal, hero interactivo, insignias de confianza, apartados, catálogo dinámico, NEXO Discover, pasos del proceso, métodos de pago, referencias, Sobre NEXO, formulario de contacto y pie de página.
 - [`robux.html`](file:///C:/Users/pablo/Desktop/nexo/robux.html): Apartado dedicado a Robux (Roblox) con paquetes, comparativa de precios oficial vs. NEXO y las 6 preguntas frecuentes.
