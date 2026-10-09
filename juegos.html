@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Juegos Digitales | NEXO</title>
+<meta name="description" content="Títulos y videojuegos digitales para PC y consolas. Pago en moneda local con entrega digital y asistencia de canje.">
+<meta name="theme-color" content="#03040A">
+
+<link rel="icon" href="assets/favicon.ico" sizes="any">
+<link rel="icon" href="assets/favicon-32.png" type="image/png" sizes="32x32">
+<link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+
+<meta property="og:type" content="product">
+<meta property="og:site_name" content="NEXO">
+<meta property="og:title" content="Juegos Digitales | NEXO">
+<meta property="og:description" content="Juegos digitales listos para jugar con entrega rápida por chat.">
+<meta property="og:image" content="assets/og-image.jpg">
+<meta name="twitter:card" content="summary_large_image">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@600;700&display=swap">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<a class="skip" href="#main">Saltar al contenido</a>
+
+<svg width="0" height="0" style="position:absolute;overflow:hidden" aria-hidden="true">
+  <defs>
+    <filter id="liquid-refract" x="-10%" y="-10%" width="120%" height="120%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.015 0.03" numOctaves="2" result="noise" />
+      <feDisplacementMap in="SourceGraphic" in2="noise" scale="6" xChannelSelector="R" yChannelSelector="G" />
+    </filter>
+    <symbol id="i-wa" viewBox="0 0 24 24"><path d="M3.5 20.5l1.3-4.3A8.5 8.5 0 1 1 8 19.3l-4.5 1.2z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/><path d="M9 8.6c.2-.5.5-.5.8-.5h.5c.2 0 .4 0 .5.4l.7 1.6c.1.2 0 .4-.1.6l-.5.6c-.1.1-.2.3 0 .5.6 1 1.4 1.8 2.4 2.3.2.1.4.1.5 0l.6-.7c.2-.2.4-.2.6-.1l1.6.8c.2.1.3.2.3.4 0 .5-.2 1.2-.8 1.5-.6.3-1.5.4-3.3-.4-2.1-1-3.5-3-3.8-3.5-.3-.5-.8-1.4-.8-2.4 0-.7.4-1.3.8-1.6z" fill="currentColor"/></symbol>
+    <symbol id="i-tg" viewBox="0 0 24 24"><path d="M21.4 3.6 2.9 10.8c-1 .4-1 1.4 0 1.7l4.6 1.5 1.8 5.5c.2.7.6.8 1.1.3l2.7-2.5 4.8 3.5c.7.4 1.3.2 1.5-.7l3.1-14.9c.3-1.2-.4-1.8-1.1-1.6z" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linejoin="round"/><path d="M7.5 14l9.3-6.2-6.6 7.4" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linejoin="round" stroke-linecap="round"/></symbol>
+    <symbol id="i-joystick" viewBox="0 0 24 24"><path d="M6 11h12l2 9H4l2-9z" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="12" cy="5" r="3" fill="none" stroke="currentColor" stroke-width="2"/><line x1="12" y1="8" x2="12" y2="13" stroke="currentColor" stroke-width="2"/></symbol>
+    <symbol id="i-bolt" viewBox="0 0 24 24"><path d="M13 2L3 14h8l-1 8 11-13h-8l1-7z" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+    <symbol id="i-shield" viewBox="0 0 24 24"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><path d="M9 12l2 2 4-4" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+    <symbol id="i-arrow" viewBox="0 0 24 24"><path d="M5 12h14M12 5l7 7-7 7" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+    <symbol id="i-chev" viewBox="0 0 24 24"><polyline points="6 9 12 15 18 9" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+    <symbol id="i-check" viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+    <symbol id="i-lock" viewBox="0 0 24 24"><rect x="3" y="11" width="18" height="11" rx="2" fill="none" stroke="currentColor" stroke-width="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4" fill="none" stroke="currentColor" stroke-width="2"/></symbol>
+    <symbol id="i-clock" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" fill="none" stroke="currentColor" stroke-width="2"/><polyline points="12 6 12 12 16 14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></symbol>
+    <symbol id="i-package" viewBox="0 0 24 24"><line x1="16.5" y1="9.4" x2="7.5" y2="4.21" fill="none" stroke="currentColor" stroke-width="2"/><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z" fill="none" stroke="currentColor" stroke-width="2"/><polyline points="3.27 6.96 12 12.01 20.73 6.96" fill="none" stroke="currentColor" stroke-width="2"/><line x1="12" y1="22.08" x2="12" y2="12" fill="none" stroke="currentColor" stroke-width="2"/></symbol>
+    <symbol id="i-truck" viewBox="0 0 24 24"><rect x="1" y="3" width="15" height="13" rx="2" fill="none" stroke="currentColor" stroke-width="2"/><polygon points="16 8 20 8 23 11 23 16 16 16 16 8" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="5.5" cy="18.5" r="2.5" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="18.5" cy="18.5" r="2.5" fill="none" stroke="currentColor" stroke-width="2"/></symbol>
+    <symbol id="i-calendar" viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="18" rx="2" fill="none" stroke="currentColor" stroke-width="2"/><line x1="16" y1="2" x2="16" y2="6" stroke="currentColor" stroke-width="2"/><line x1="8" y1="2" x2="8" y2="6" stroke="currentColor" stroke-width="2"/><line x1="3" y1="10" x2="21" y2="10" stroke="currentColor" stroke-width="2"/></symbol>
+    <symbol id="i-user" viewBox="0 0 24 24"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="12" cy="7" r="4" fill="none" stroke="currentColor" stroke-width="2"/></symbol>
+    <symbol id="i-lifebuoy" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="12" cy="12" r="4" fill="none" stroke="currentColor" stroke-width="2"/><line x1="4.93" y1="4.93" x2="9.17" y2="9.17" stroke="currentColor" stroke-width="2"/><line x1="14.83" y1="14.83" x2="19.07" y2="19.07" stroke="currentColor" stroke-width="2"/><line x1="14.83" y1="9.17" x2="19.07" y2="4.93" stroke="currentColor" stroke-width="2"/><line x1="4.93" y1="19.07" x2="9.17" y2="14.83" stroke="currentColor" stroke-width="2"/></symbol>
+    <symbol id="i-star" viewBox="0 0 24 24"><path d="M12 2 Q 12 12 2 12 Q 12 12 12 22 Q 12 12 22 12 Q 12 12 12 2 Z" fill="currentColor"/></symbol>
+  </defs>
+</svg>
+
+<div class="bg" aria-hidden="true"><i></i><i></i><i></i></div>
+<div class="cursor-glow" aria-hidden="true"></div>
+<div class="progress" id="progress" aria-hidden="true"></div>
+
+<header class="nav glass" id="nav">
+  <div class="nav-glass" aria-hidden="true"></div>
+  <a class="brand" href="index.html">
+    <img src="assets/logo-dark-sm.webp" alt="NEXO" width="34" height="30">
+    <span>NEXO</span>
+  </a>
+  <nav class="nav-links" id="menu-desktop">
+    <span class="drop" aria-hidden="true"></span>
+    <a href="index.html#inicio">Inicio</a>
+    <a href="index.html#plataformas" aria-current="page">Apartados</a>
+    <a href="index.html#productos">Catálogo</a>
+    <a href="index.html#como-funciona">Cómo funciona</a>
+    <a href="contacto.html">Contacto</a>
+  </nav>
+  <div class="nav-actions">
+    <div class="cur glass-lite" role="group">
+      <button data-cur="MXN" aria-pressed="true">MXN</button>
+      <button data-cur="USD" aria-pressed="false">USD</button>
+      <button data-cur="COP" aria-pressed="false">COP</button>
+    </div>
+    <a class="gbtn wa" data-wa="support" href="#" target="_blank" rel="noopener"><svg class="ico"><use href="#i-wa"/></svg><span>WhatsApp</span></a>
+    <a class="gbtn tg" data-tg="support" href="#" target="_blank" rel="noopener"><svg class="ico"><use href="#i-tg"/></svg><span>Telegram</span></a>
+    <button class="burger" id="burger" aria-expanded="false" aria-controls="mnav" aria-label="Menú"><i></i><i></i><i></i></button>
+  </div>
+</header>
+
+<div class="scrim" id="scrim" aria-hidden="true"></div>
+<div class="mnav glass" id="mnav" role="dialog" aria-modal="true" aria-label="Menú móvil">
+  <nav>
+    <a href="index.html#inicio">Inicio</a>
+    <a href="index.html#plataformas">Apartados</a>
+    <a href="index.html#productos">Catálogo</a>
+    <a href="index.html#como-funciona">Cómo funciona</a>
+    <a href="contacto.html">Contacto</a>
+  </nav>
+  <div class="mnav-row">
+    <span>Moneda:</span>
+    <div class="cur glass-lite" role="group">
+      <button data-cur="MXN" aria-pressed="true">MXN</button>
+      <button data-cur="USD" aria-pressed="false">USD</button>
+      <button data-cur="COP" aria-pressed="false">COP</button>
+    </div>
+  </div>
+  <div class="mnav-cta">
+    <a class="btn wa" data-wa="support" href="#" target="_blank" rel="noopener"><svg class="ico"><use href="#i-wa"/></svg>WhatsApp</a>
+    <a class="btn tg" data-tg="support" href="#" target="_blank" rel="noopener"><svg class="ico"><use href="#i-tg"/></svg>Telegram</a>
+  </div>
+</div>
+
+<main id="main">
+<section class="phero">
+  <div>
+    <div class="crumbs">
+      <a href="index.html">Inicio</a> <span>/</span>
+      <a href="index.html#plataformas">Apartados</a> <span>/</span>
+      <span>Juegos</span>
+    </div>
+
+    <div class="eyebrow glass-lite" style="margin-top:.8rem">
+      <svg class="star"><use href="#i-star"/></svg>Videojuegos digitales
+    </div>
+
+    <h1>Tus juegos digitales favoritos, listos para jugar</h1>
+    <p class="lead">Títulos para PC y consolas. Catálogo en preparación activa: si buscas un título en específico, pregúntanos por WhatsApp o Telegram y te cotizamos al momento.</p>
+
+    <ul class="highlights">
+      <li class="glass-lite"><svg class="ico"><use href="#i-clock"/></svg>Entrega 100% digital</li>
+      <li class="glass-lite"><svg class="ico"><use href="#i-check"/></svg>Te ayudamos a canjearlo</li>
+      <li class="glass-lite"><svg class="ico"><use href="#i-shield"/></svg>Pago con métodos locales</li>
+    </ul>
+
+    <div class="cta-row">
+      <a class="btn wa lg" data-wa="product" data-wa-var-product="Juegos" href="#" target="_blank" rel="noopener">
+        <svg class="ico"><use href="#i-wa"/></svg>Preguntar por un juego en WhatsApp
+      </a>
+      <a class="btn tg lg" data-tg="product" data-tg-var-product="Juegos" href="#" target="_blank" rel="noopener">
+        <svg class="ico"><use href="#i-tg"/></svg>Preguntar por Telegram
+      </a>
+    </div>
+  </div>
+
+  <div class="phero-art glass-lite">
+    <svg class="big-ico"><use href="#i-joystick"/></svg>
+  </div>
+</section>
+
+<!-- PAQUETES -->
+<section class="sec">
+  <div class="head">
+    <div class="eyebrow glass-lite"><svg class="star"><use href="#i-star"/></svg>Catálogo en preparación</div>
+    <h2>Juegos digitales</h2>
+    <p>Estamos integrando los títulos más pedidos. Consúltanos por el juego que deseas jugar hoy.</p>
+  </div>
+
+  <div class="pkgs">
+    <article class="pkg glass-lite">
+      <span class="status s-soon">Próximamente</span>
+      <h3>Título 1 <span class="ph">[PLACEHOLDER]</span></h3>
+      <span class="price"><small>Precio</small> Por confirmar</span>
+      <div class="duo">
+        <a class="btn wa sm" data-wa="product" data-wa-var-product="Juego 1" href="#" target="_blank" rel="noopener"><svg class="ico"><use href="#i-wa"/></svg>WhatsApp</a>
+        <a class="btn tg sm" data-tg="product" data-tg-var-product="Juego 1" href="#" target="_blank" rel="noopener"><svg class="ico"><use href="#i-tg"/></svg>Telegram</a>
+      </div>
+    </article>
+
+    <article class="pkg glass-lite">
+      <span class="status s-soon">Próximamente</span>
+      <h3>Título 2 <span class="ph">[PLACEHOLDER]</span></h3>
+      <span class="price"><small>Precio</small> Por confirmar</span>
+      <div class="duo">
+        <a class="btn wa sm" data-wa="product" data-wa-var-product="Juego 2" href="#" target="_blank" rel="noopener"><svg class="ico"><use href="#i-wa"/></svg>WhatsApp</a>
+        <a class="btn tg sm" data-tg="product" data-tg-var-product="Juego 2" href="#" target="_blank" rel="noopener"><svg class="ico"><use href="#i-tg"/></svg>Telegram</a>
+      </div>
+    </article>
+  </div>
+</section>
+
+<!-- BENEFICIOS Y TARJETA COMPARATIVA -->
+<section class="sec">
+  <div class="head">
+    <div class="eyebrow glass-lite"><svg class="star"><use href="#i-star"/></svg>Ventajas de compra</div>
+    <h2>Por qué adquirir tus juegos en NEXO</h2>
+  </div>
+
+  <div class="compare glass-lite">
+    <div>
+      <h3 style="font-size:1.35rem;margin-bottom:.6rem">Ventajas exclusivas</h3>
+      <ul class="checks">
+        <li><svg class="ico"><use href="#i-check"/></svg>Entrega inmediata de clave digital o activación directa.</li>
+        <li><svg class="ico"><use href="#i-check"/></svg>Te asesoramos paso a paso durante el canje en Steam, Xbox o PlayStation.</li>
+        <li><svg class="ico"><use href="#i-check"/></svg>Pagas en efectivo o transferencia mediante Nu, Mercado Pago o Spin.</li>
+        <li><svg class="ico"><use href="#i-check"/></svg>Verificamos la compatibilidad de idioma y región antes de cobrar.</li>
+      </ul>
+      <p class="ref" style="margin-top:1rem">Referencia: <span class="ph">[PLACEHOLDER: juego de referencia]</span></p>
+    </div>
+
+    <div>
+      <div class="compare-cols">
+        <div class="compare-col">
+          <small>Tienda Oficial</small>
+          <span class="tbd"><span class="ph">[PLACEHOLDER: precio oficial]</span></span>
+          <p style="color:var(--c-muted);font-size:.78rem;margin-top:.4rem">Precios en dólares o conversiones bancarias elevadas.</p>
+        </div>
+
+        <div class="compare-col nexo">
+          <small>En NEXO</small>
+          <span class="tbd" style="color:var(--c-cyan-300)"><span class="ph">[PLACEHOLDER: precio NEXO]</span></span>
+          <p style="color:#D3DCF7;font-size:.78rem;margin-top:.4rem">Pago local y soporte en tu idioma.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section class="sec">
+  <div class="head"><h2>Preguntas frecuentes sobre Juegos</h2></div>
+
+  <div class="faq">
+    <details class="glass-lite" open>
+      <summary>
+        <div class="badge-ico"><svg class="ico"><use href="#i-package"/></svg></div>
+        <span>¿Qué recibo?</span>
+        <svg class="chev ico"><use href="#i-chev"/></svg>
+      </summary>
+      <div class="ans">Un código de activación o licencia digital oficial para la plataforma elegida (Steam, Xbox, PlayStation, Epic Games, etc.).</div>
+    </details>
+
+    <details class="glass-lite">
+      <summary>
+        <div class="badge-ico"><svg class="ico"><use href="#i-truck"/></svg></div>
+        <span>¿Cómo se entrega?</span>
+        <svg class="chev ico"><use href="#i-chev"/></svg>
+      </summary>
+      <div class="ans">Te enviamos la clave directamente por chat tras validar el pago y te acompañamos hasta que el juego aparezca en tu biblioteca.</div>
+    </details>
+
+    <details class="glass-lite">
+      <summary>
+        <div class="badge-ico"><svg class="ico"><use href="#i-calendar"/></svg></div>
+        <span>¿Cuánto dura mi paquete?</span>
+        <svg class="chev ico"><use href="#i-chev"/></svg>
+      </summary>
+      <div class="ans">Una licencia digital de videojuego es permanente y queda asociada a tu cuenta para siempre.</div>
+    </details>
+
+    <details class="glass-lite">
+      <summary>
+        <div class="badge-ico"><svg class="ico"><use href="#i-user"/></svg></div>
+        <span>¿Qué necesito proporcionar?</span>
+        <svg class="chev ico"><use href="#i-chev"/></svg>
+      </summary>
+      <div class="ans">Solo la plataforma donde juegas, el país de tu cuenta y el comprobante de pago.</div>
+    </details>
+
+    <details class="glass-lite">
+      <summary>
+        <div class="badge-ico"><svg class="ico"><use href="#i-shield"/></svg></div>
+        <span>¿Tiene garantía?</span>
+        <svg class="chev ico"><use href="#i-chev"/></svg>
+      </summary>
+      <div class="ans">Sí: si el código presenta cualquier anomalía en el primer intento de canje, lo revisamos y lo reponemos de inmediato.</div>
+    </details>
+
+    <details class="glass-lite">
+      <summary>
+        <div class="badge-ico"><svg class="ico"><use href="#i-lifebuoy"/></svg></div>
+        <span>¿Qué sucede si tengo un problema?</span>
+        <svg class="chev ico"><use href="#i-chev"/></svg>
+      </summary>
+      <div class="ans">Nos envías captura de tu pantalla de canje y te asistimos por chat en <span class="ph">[PLACEHOLDER: menos de 2 horas en horario laboral]</span>.</div>
+    </details>
+  </div>
+</section>
+
+<section class="sec">
+  <div class="head"><h2>Otros apartados disponibles</h2></div>
+  <div class="others">
+    <a class="btn ghost sm" href="robux.html">Robux (Roblox) <svg class="ico"><use href="#i-arrow"/></svg></a>
+    <a class="btn ghost sm" href="suscripciones.html">Suscripciones <svg class="ico"><use href="#i-arrow"/></svg></a>
+    <a class="btn ghost sm" href="gift-cards.html">Gift cards <svg class="ico"><use href="#i-arrow"/></svg></a>
+  </div>
+</section>
+</main>
+
+<footer class="foot">
+  <div class="foot-in">
+    <div class="foot-cols">
+      <div class="foot-brand">
+        <a class="brand" href="index.html">
+          <img src="assets/logo-dark-sm.webp" alt="NEXO" width="40" height="36">
+          <span>NEXO</span>
+        </a>
+        <p data-cfg="tagline">Tu mundo digital, en un solo lugar.</p>
+      </div>
+      <div>
+        <h4>Navegación</h4>
+        <ul>
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="index.html#plataformas">Apartados</a></li>
+          <li><a href="contacto.html">Contacto</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Apartados</h4>
+        <ul>
+          <li><a href="robux.html">Robux</a></li>
+          <li><a href="suscripciones.html">Suscripciones</a></li>
+          <li><a href="gift-cards.html">Gift cards</a></li>
+          <li><a href="juegos.html">Juegos</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Legal</h4>
+        <ul>
+          <li><a href="privacidad.html">Privacidad</a></li>
+          <li><a href="terminos.html">Términos</a></li>
+          <li><a href="reembolsos.html">Reembolsos</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="foot-bottom">
+      <div class="seal glass-lite">
+        <div class="badge-ico" style="background:var(--c-wa-2)"><svg class="ico"><use href="#i-lock"/></svg></div>
+        <div><b>Sitio 100% seguro SSL</b><small>Tus datos siempre cifrados</small></div>
+      </div>
+      <div>© <script>document.write(new Date().getFullYear())</script> NEXO.</div>
+    </div>
+  </div>
+</footer>
+
+<div class="fabs" id="fabs">
+  <a class="fab tg" data-tg="general" href="#" target="_blank" rel="noopener"><svg class="ico"><use href="#i-tg"/></svg><span>Telegram</span></a>
+  <a class="fab wa" data-wa="general" href="#" target="_blank" rel="noopener"><svg class="ico"><use href="#i-wa"/></svg><span>WhatsApp</span></a>
+</div>
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+<script src="js/config.js"></script>
+<script src="js/device.js"></script>
+<script src="js/currency.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>
